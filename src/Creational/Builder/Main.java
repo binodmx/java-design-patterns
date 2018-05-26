@@ -10,5 +10,7 @@ package Creational.Builder;
  * @author Binod
  */
 public class Main {
-    
+    public static void main(String[] args){
+        
+    }
 }
