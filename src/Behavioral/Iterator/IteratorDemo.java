@@ -7,7 +7,6 @@ package Behavioral.Iterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 
 /**
  *
@@ -16,9 +15,12 @@ import java.util.List;
 public class IteratorDemo {
     public static void main(String[] args){
         
-        List<Object> list = new ArrayList<Object>();
+        ArrayList<String> list = new ArrayList<String>();
+        
         list.add("Item1");
-        Iterator<Object> itr=list.iterator();
+        list.add("Item2");
+        
+        Iterator<String> itr = list.iterator();
         
         for(;itr.hasNext();){
             
