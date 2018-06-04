@@ -3,13 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Behavioral.Mediator;
+package Behavioral.Observer;
+
+import java.util.Observable;
 
 /**
  *
  * @author Binod
  */
-public interface Mediator {
-    public void sendMessage(String msg, ConcreteUser user);
-    void addUser(ConcreteUser user);
+public class ConcreteObservable extends Observable {
+    
+    public void changeState(){
+        super.setChanged();
+    }
 }

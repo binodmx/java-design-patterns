@@ -12,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-            FileCompressorTool fct = new FileCompressorTool("7ZipRar");
+            FileCompressorTool fct = new FileCompressorTool("FileCompressor");
 
             fct.setStrategy(new Technique_7zip());
             fct.compress();

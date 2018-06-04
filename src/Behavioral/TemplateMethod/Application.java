@@ -3,13 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Behavioral.Mediator;
+package Behavioral.TemplateMethod;
 
 /**
  *
  * @author Binod
  */
-public interface Mediator {
-    public void sendMessage(String msg, ConcreteUser user);
-    void addUser(ConcreteUser user);
+public class Application extends Template {
+
+    @Override
+    public void templateMethod() {
+        System.out.println("This is the modified template");
+    }
+    
 }

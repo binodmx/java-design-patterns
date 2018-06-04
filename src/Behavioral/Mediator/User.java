@@ -9,19 +9,14 @@ package Behavioral.Mediator;
  *
  * @author Binod
  */
-public class User extends SuperUser {
-	 
-    public User(Mediator mediator, String name) {
-        super(mediator, name);
+public abstract class User {
+    protected Mediator mediator;
+    protected String name;
+     
+    public User(Mediator mediator, String name){
+        this.mediator=mediator;
+        this.name=name;
     }
-    @Override
-    public void send(String msg){
-        System.out.println(this.name+": Sending Message: "+msg);
-        mediator.sendMessage(msg, this);
-    }
-    @Override
-    public void receive(String msg) {
-        System.out.println(this.name+": Received Message: "+msg);
-    }
- 
+    public abstract void send(String msg);
+    public abstract void receive(String msg);
 }

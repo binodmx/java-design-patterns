@@ -12,21 +12,21 @@ import java.util.List;
  *
  * @author Binod
  */
-public class ChatMediator implements Mediator {
+public class ConcreteMediator implements Mediator {
  
-    private List<User> users;
+    private List<ConcreteUser> users;
      
-    public ChatMediator(){
+    public ConcreteMediator(){
         this.users=new ArrayList<>();
     }
      
     @Override
-    public void addUser(User user){
+    public void addUser(ConcreteUser user){
         this.users.add(user);
     }
      
     @Override
-    public void sendMessage(String msg, User user) {
+    public void sendMessage(String msg, ConcreteUser user) {
         for(User u : this.users){
             //message should not be received by the user sending it
             if(u != user){

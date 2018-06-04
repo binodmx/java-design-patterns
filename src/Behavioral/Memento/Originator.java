@@ -8,20 +8,24 @@
  *
  * @author 160278m
  */
-public class Contestant {
+public class Originator {
     private String state; 
 
     public void setState(String state){ 
         this.state = state;
     } 
+    
     public String getState(){ 
-        return state; 
+        return this.state; 
     } 
+    
     public Memento saveStateToMemento(){ 
-        return new Memento(state); 
+        return new Memento(this.state); 
     } 
+    
     public void getStateFromMemento(Memento Memento){         
-        state = Memento.getState();
+        this.state = Memento.getState();
         System.out.println("state restored");
     }
+    
 }

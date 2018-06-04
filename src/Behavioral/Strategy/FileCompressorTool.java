@@ -33,7 +33,7 @@ public class FileCompressorTool {
     }
 
     public void compress(){
-            System.out.print(this.name + " compress files ");
+            System.out.print(this.name + " compresses files ");
             strategy.compress();
     }
 

@@ -12,7 +12,7 @@ import java.util.Iterator;
  *
  * @author Binod
  */
-public class IteratorDemo {
+public class Main {
     public static void main(String[] args){
         
         ArrayList<String> list = new ArrayList<String>();
@@ -23,7 +23,7 @@ public class IteratorDemo {
         Iterator<String> itr = list.iterator();
         
         for(;itr.hasNext();){
-            
+            System.out.println(itr.next());
         }
     }
 }

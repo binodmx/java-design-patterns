@@ -3,13 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Behavioral.Mediator;
+package Behavioral.TemplateMethod;
 
 /**
  *
  * @author Binod
  */
-public interface Mediator {
-    public void sendMessage(String msg, ConcreteUser user);
-    void addUser(ConcreteUser user);
+public abstract class Template {
+ 
+    public abstract void templateMethod();
+    
 }

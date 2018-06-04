@@ -12,7 +12,6 @@ package Creational.Singleton;
 public class Singleton {
     private static Singleton instance;
     private Singleton(){
-    
     }
     
     // normal method
@@ -24,6 +23,7 @@ public class Singleton {
     }
     
     // lazy method
+    
     
     // double checking method
     
