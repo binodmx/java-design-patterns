@@ -2,6 +2,27 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Composite/Composite.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Behavioral/Mediator/User.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Decorator/Circle.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Composite/ConcreteComposite1.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Flyweight/FlyweightFactory.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Proxy/Main.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Behavioral/Mediator/Main.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Decorator/ShapeDecorator.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Decorator/RedShapeDecorator.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Decorator/Square.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Flyweight/Main.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Composite/Leaf.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Composite/Component.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Decorator/Shape.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Composite/Main.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Decorator/Main.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Flyweight/ConcreteFlyweight.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Composite/ConcreteComposite2.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Behavioral/Mediator/ConcreteUser.java</file>
+            <file>file:/C:/Users/Binod/Documents/NetBeansProjects/JavaDesignPatterns/src/Structural/Flyweight/Flyweight.java</file>
+        </group>
     </open-files>
 </project-private>
