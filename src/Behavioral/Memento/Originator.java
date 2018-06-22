@@ -23,8 +23,8 @@ public class Originator {
         return new Memento(this.state); 
     } 
     
-    public void getStateFromMemento(Memento Memento){         
-        this.state = Memento.getState();
+    public void restoreStateFromMemento(Memento Memento){         
+        this.setState(Memento.getState());
         System.out.println("state restored");
     }
     

@@ -25,7 +25,8 @@ public class CareTaker {
         originator1.setState("@flag25");
         System.out.println("contestant1 state: " + originator1.getState());
         
-        originator1.getStateFromMemento(mementoList.get(0));
+        originator1.restoreStateFromMemento(mementoList.get(0));
         System.out.println("contestant1 state: " + originator1.getState());
+        
     }
 }

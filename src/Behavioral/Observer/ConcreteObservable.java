@@ -15,5 +15,7 @@ public class ConcreteObservable extends Observable {
     
     public void changeState(){
         super.setChanged();
+        this.notifyObservers();
     }
+    
 }

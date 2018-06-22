@@ -17,6 +17,7 @@ public class Main {
         
         AbstractProductA p = cf1.createProductA();
         AbstractProductB q = cf1.createProductB();
+        
         AbstractProductA r = cf2.createProductA();
         AbstractProductB s = cf2.createProductB();
         

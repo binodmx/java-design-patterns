@@ -14,8 +14,7 @@ public class ConcreteHandler1 extends Handler{
     protected boolean handleRequestImpl(Request request){
         if (request.getValue() < 0){
             System.out.println("Negative values are handled by ConcreteHandler1:");
-            System.out.println("\tConcreteHandler1.HandleRequest : " 
-                    + request.getDescription() + request.getValue());
+            System.out.println("\tConcreteHandler1.HandleRequest : " + request.getDescription() + request.getValue());
             return true;
         } else {
             return false;

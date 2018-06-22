@@ -23,7 +23,6 @@ public class Main {
         observable.addObserver(observer3);
         
         observable.changeState();
-        observable.notifyObservers();
         
     }
 }

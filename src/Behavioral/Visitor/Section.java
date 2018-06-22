@@ -27,6 +27,7 @@ public class Section implements IVisitable {
     @Override
     public void accept(IVisitor visitor) {
         visitor.visit(this);
+        this.heading.accept(visitor);
         for (Iterator<Paragraph> itr = paragraphs.iterator(); itr.hasNext();)
         {
                 ((IVisitable)itr.next()).accept(visitor);
