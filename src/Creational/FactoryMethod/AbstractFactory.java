@@ -9,9 +9,9 @@ package Creational.FactoryMethod;
  *
  * @author Binod
  */
-public abstract class Factory {
+public abstract class AbstractFactory {
     
-    public Factory(){
+    public AbstractFactory(){
         
     }
         

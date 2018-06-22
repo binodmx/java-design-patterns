@@ -16,9 +16,9 @@ public class Multiton {
     private static Object lock = new Object();
     
     private Multiton(){
-        
     }
     
+    // double checking method
     public static Multiton getMultiton(String key){
         if (!multitons.containsKey(key)){
             synchronized(lock){
@@ -29,4 +29,5 @@ public class Multiton {
         }
         return multitons.get(key);
     }
+    
 }

@@ -9,7 +9,7 @@ package Creational.FactoryMethod;
  *
  * @author Binod
  */
-public class ConcreteFactory2 extends Factory{
+public class ConcreteFactory2 extends AbstractFactory{
 
     @Override
     protected Product factoryMethod() {

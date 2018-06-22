@@ -10,6 +10,7 @@ package Creational.Prototype;
  * @author Binod
  */
 public class ConcretePrototype implements Prototype{                            // this can be done by implementing Cloneable interface also.
+    
     @Override
     public Object clone() {   
         ConcretePrototype clone = null;
@@ -21,4 +22,5 @@ public class ConcretePrototype implements Prototype{                            
         }   
         return clone;
     }
+    
 }

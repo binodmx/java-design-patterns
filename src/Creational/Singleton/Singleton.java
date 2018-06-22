@@ -10,21 +10,29 @@ package Creational.Singleton;
  * @author Binod
  */
 public class Singleton {
-    private static Singleton instance;
+    private static Singleton instance;                                          // lazy initialization
+    /* private static Singleton instance = new Singleton();*/                   // eager initialization
+    
     private Singleton(){
     }
     
     // normal method
-    public static synchronized Singleton getInstance(){
-        if(instance==null){
+    public static synchronized Singleton getInstanceByNormalMethod(){
+        if(instance == null){
             instance=new Singleton();
         }
         return instance;
     }
     
-    // lazy method
-    
-    
     // double checking method
-    
+    public static Singleton getInstanceByDoubleCheckingMethod(){
+        if(instance == null){
+            synchronized(Singleton.class){
+                if(instance == null){
+                    instance = new Singleton();
+                }
+            }
+        }
+        return instance;
+    }
 }
