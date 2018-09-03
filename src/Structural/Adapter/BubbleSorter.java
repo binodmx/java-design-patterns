@@ -14,6 +14,7 @@ import java.util.ArrayList;
 public class BubbleSorter {                                                     // Adaptee
     
     public ArrayList<Integer> sort(ArrayList<Integer> numberList){
+        
         for(int i = 0; i < numberList.size(); i++){
             for(int j = 0; j < numberList.size()-1; j++){
                 if(numberList.get(j)>numberList.get(j+1)){
@@ -24,6 +25,7 @@ public class BubbleSorter {                                                     
             }
         }
         return numberList;
+        
     }
     
 }

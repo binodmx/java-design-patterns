@@ -16,7 +16,7 @@ public class Main {
             ConcreteFlyweight cf = (ConcreteFlyweight) FlyweightFactory.getFlyweight();
             cf.setXY(i, 10);
             cf.move();
-        }       
+        }    
         
     }
 }

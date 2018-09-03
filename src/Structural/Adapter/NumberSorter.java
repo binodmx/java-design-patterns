@@ -14,9 +14,11 @@ import java.util.List;
  */
 public class NumberSorter {                                                     // Adapter
     
-    public int[] sort(int[] numbers){       
+    public int[] sort(int[] numbers){      
+        
         ArrayList<Integer> numberList = new ArrayList<Integer>(); 
         
+        // Convert array to array list
         for(int i = 0; i < numbers.length; i++){
             numberList.add(numbers[i]);
         }
@@ -24,6 +26,7 @@ public class NumberSorter {                                                     
         BubbleSorter bubbleSorter = new BubbleSorter(); 
         numberList = bubbleSorter.sort(numberList);
         
+        // Convert array list to array
         for(int j = 0; j < numbers.length; j++){
             numbers[j] = numberList.get(j);
         }
