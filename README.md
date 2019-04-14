@@ -1,4 +1,4 @@
-# ReadMe - JavaDesignPatterns
+# ReadMe - Java Design Patterns
 
 There are implemented Java design patterns using NetBeans IDE 8.2
 
